@@ -5,12 +5,15 @@
         $chemin = trim(fgets(STDIN));
     }while (empty($chemin));
 
-    $dossier = scandir($chemin); // liste les fichiers du dossier
-    $extensions = []; // tableau pour classer par extension
+    //$dossier = scandir($chemin); // liste les fichiers du dossier
+    $dossier = array_diff(scandir($chemin), ['.', '..']); // liste les fichiers du dossier tt en filtrant les . et ..
+    print_r($dossier);
+    
+    //$extensions = []; // tableau pour classer par extension
     $ext ="";
 
-    foreach ($dossier as $fichier) {
-        if (is_file($chemin . $fichier)) { // vérifier que c'est bien un fichier
+    /*foreach ($dossier as $fichier) {
+        if (is_file($chemin .DIRECTORY_SEPARATOR . $fichier)) { // vérifier que c'est bien un fichier
         $info = pathinfo($fichier);
         $ext = isset($info['extension']) ? strtolower($info['extension']) : "autre";
 
@@ -41,6 +44,6 @@
 
 
 
-    }
+    }*/
 
 ?>
