@@ -20,6 +20,7 @@ class Vehicule {
 }
 
 class Car extends Vehicule {
+    // TODO: la méthode move doit être redéfini
     public function moved() {
         return "La voiture roule sur la route.\n";
     }
@@ -27,6 +28,7 @@ class Car extends Vehicule {
 
 
 class Boat extends Vehicule {
+    // TODO: la méthode move doit être redéfini
     public function moved() {
         return "Le bateau navige sur l'eau.\n";
     }
