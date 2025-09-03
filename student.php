@@ -5,13 +5,14 @@ class Student {
 
     public string $name;
     public array $grades= [];
-    private float $moyenne = 0;
+    private float $moyenne = 0; // TODO: on peut s'en passer
 
     public function __construct(string $name)
     {
         $this->name = $name;
     }
         
+    // TODO: Eviter les codes morts. Supprimer si plus besoin
     /*public function addGrade (float $grade): void {
         $new_note = 0;
         if ($grade <0 && $grade>20) {
@@ -25,23 +26,23 @@ class Student {
     }*/
 
     public function addGrade (float $grade): void {
-        $new_note = 0;
+        $new_note = 0; // TODO: inutilisé donc inutile
         if ($grade >=0 && $grade<=20) {
             $this->grades[] = $grade;
         }else {
             echo "Invalid grade. \n";
-            //$new_note = (float)trim(fgets(STDIN));    
+            //$new_note = (float)trim(fgets(STDIN)); // TODO: Code mort, supprimer si pas besoin 
         }
     }
     
     public function removeGrade(float $grade): void {
+        // TODO: Pourrait être simplifié. Check "array_splice()"
         foreach ($this->grades as $key =>$g) {
             if ($grade == $g) {
                 unset($this->grades[$key]); 
             }
             $this->grades = array_values($this->grades);
         }
-
     }
 
     public function average() : float {
@@ -50,11 +51,13 @@ class Student {
             $somme += $g; 
         }
         echo "Your average is: ";
-        $this->moyenne = $somme/count($this->grades);
+        // TODO: correct mais division par 0 possible. Gérer ce cas. Juste retourner 0 si pas de notes
+        $this->moyenne = $somme/count($this->grades); 
         return $this->moyenne;
     }
 
     public function honor() : void{
+        // TODO: Good
         if ($this->moyenne <10) {
             echo "Insuffisant\n" ;
             echo $this->moyenne;
