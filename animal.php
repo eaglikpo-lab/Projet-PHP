@@ -57,7 +57,7 @@
     }
         
     //$animals = [new Dog("Rex"), new Cat("Mimi"), new Cow("Daisy")];
-    $animals = [new Dog("Rex"), new Cat("Mimi"), new Cow("Daisy"), "point"];
+    $animals = [new Dog("Rex"), new Cat("Mimi"), new Cow("Daisy")];
     
 
     $allvalid = true;
@@ -75,6 +75,6 @@
         echo "Erreur: un des objets n'herite pas d'Animal.\n";
     }
     
-    
+    // TODO: Everything is good
 
 ?>
