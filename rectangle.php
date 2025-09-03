@@ -2,7 +2,7 @@
 // Objectif : Travailler avec plusieurs méthodes et la logique interne dans une classe PHP.
 
 class Rectangle {
-    // TODO: seuls les attributs $width et height sont nécessaires. Faire sans les autres
+    // TODO: Good
     public $width;
     public $height;
 
@@ -10,26 +10,27 @@ class Rectangle {
     {
         $this ->width = $width;
         $this ->height = $height;
-      
     }
 
     public function area() {
-        // TODO: Correct, mais on peut se passer des attributs privés
+        // TODO: Good
         return $this ->width * $this ->height;
     }
 
     public function perimeter() {
-        // TODO: Correct, mais on peut se passer des attributs privés
+        // TODO: Good
         return 2 * ($this->width + $this->height);
     }
 
     public function isSquare() {
-        // TODO: Correct mais pourrait être simplifié par un ternaire ou mieux
-       return ($this->width == $this->height)? true:false;
+       return ($this->width == $this->height)? true:false; // TODO: Good
+
+       // TODO: Alternative plus simple
+       // return $this->width == $this->height; 
     } 
 
     public function scale($factor) {
-       // TODO: incorrect. Revoir la logique. On veut élargir le rectangle en fonction du facteur passé
+       // TODO: Good
        $this->width *= $factor;
        $this->height *= $factor;
     }
