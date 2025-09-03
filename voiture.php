@@ -10,7 +10,7 @@ class Vehicule {
         $this->model = $model;
     }
     
-    public function move() : void {
+    public function move() {
         echo "Le vehicule se deplace. \n";
     }
 
@@ -21,7 +21,7 @@ class Vehicule {
 
 class Car extends Vehicule {
     // TODO: la méthode move doit être redéfini
-    public function moved() {
+    public function move() {
         return "La voiture roule sur la route.\n";
     }
 } 
@@ -29,7 +29,7 @@ class Car extends Vehicule {
 
 class Boat extends Vehicule {
     // TODO: la méthode move doit être redéfini
-    public function moved() {
+    public function move() {
         return "Le bateau navige sur l'eau.\n";
     }
 } 
@@ -39,12 +39,12 @@ $v->move();         // Le véhicule se déplace.
 $v->displayInfo();  
 
 $car = new Car("Toyota", "Corolla");
-echo $car->moved();       // La voiture roule sur la route.
+echo $car->move();       // La voiture roule sur la route.
 $car->displayInfo();       
 
 
 $boat = new Boat("Yamaha", "WaveRunner");
-echo $boat->moved();      // Le bateau navigue sur l'eau.
+echo $boat->move();      // Le bateau navigue sur l'eau.
 $boat->displayInfo();      
 
 ?>
