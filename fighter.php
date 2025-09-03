@@ -18,7 +18,7 @@ class Fighter {
 
     public function attackOpponent(Fighter $target) : void{
         $target->healthPoints -= $this->attack;
-        echo $this->name." frappe ".$target->name."pour ".$this->attack." points!\n";
+        echo $this->name." frappe ".$target->name."pour ".$this->attack." points!\n"; // TODO: revoir l'espacement
         if ($target->healthPoints <= 0) {
             echo $target->name." est vaincu!\n";
             $this->gainExperience(50);
@@ -28,6 +28,8 @@ class Fighter {
     public function gainExperience($xp) : void {
         //$experience += 50;
         $this->experience += $xp;
+        // TODO: Tous les 100 XP → montée de niveau, augmente l'attaque de 2, restaure 20 HP
+        // TODO: revoir la logique
         if ($this->experience == 100) {
             $this->level += 1;
             $this->attack +=2;
@@ -36,6 +38,7 @@ class Fighter {
     }
 
     public function isAlive(): bool {
+        // TODO: Correct mais peut être simplifié par une structure ternaire ou mieux encore
         if ($this->healthPoints > 0) {
             return true;
         }else {
@@ -44,7 +47,7 @@ class Fighter {
     }
 
     public function showStatus (): void {
-        echo $this->name. "--> HP: ".$this->healthPoints. "; attacks: ".$this->attack."; level: ".$this->level."; XP: ".$this->experience.".\n";
+        echo $this->name. "--> HP: ".$this->healthPoints. "; attacks: ".$this->attack."; level: ".$this->level."; XP: ".$this->experience.".\n"; // TODO: revoir l'espacement
     }
 
 }
