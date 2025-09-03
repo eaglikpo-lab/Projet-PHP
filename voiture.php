@@ -47,5 +47,4 @@ $boat = new Boat("Yamaha", "WaveRunner");
 echo $boat->moved();      // Le bateau navigue sur l'eau.
 $boat->displayInfo();      
 
-
 ?>
