@@ -30,10 +30,12 @@ class Fighter {
         $this->experience += $xp;
         // TODO: Tous les 100 XP → montée de niveau, augmente l'attaque de 2, restaure 20 HP
         // TODO: revoir la logique
-        if ($this->experience % 100 == 0) {
+        while ($this->experience >= 100) {
+            $this->experience -= 100;
             $this->level += 1;
-            $this->attack +=2;
+            $this->attack += 2;
             $this->healthPoints +=20;
+            echo "🎉 {$this->name} monte au niveau {$this->level} ! (Attaque: {$this->attack}, HP: {$this->healthPoints})\n";
         }
     }
 
@@ -61,5 +63,6 @@ while ($a->isAlive() && $b->isAlive()) {
     $b->showStatus();
     echo str_repeat("=", 20) . "\n";
 }
+
 
 ?>
