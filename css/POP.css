@@ -234,11 +234,18 @@ height: auto;}
 
 @media (max-width: 600px) {
     .carte {
-        flex: 1 1 100%;/* 1 carte par ligne */
+        flex: 1 1 40%;/* 1 carte par ligne */
         max-width: 50%;
     }
 
     .popular-items .popslider-button {
         transform: translateY(4050%);
+    }
+
+    .name-location .name,
+    .name-location .Location,
+    .name-location .price,
+    .button  button{
+        font-size: 12px;
     }
 }
