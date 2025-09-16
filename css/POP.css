@@ -239,13 +239,13 @@ height: auto;}
     }
 
     .popular-items .popslider-button {
-        transform: translateY(4050%);
+        transform: translateY(1550%);
     }
 
     .name-location .name,
     .name-location .Location,
-    .name-location .price,
+    .price,
     .button  button{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
