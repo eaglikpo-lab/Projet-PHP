@@ -193,4 +193,16 @@
         font-size: 10px;
         gap: 2vw;
     }
+
+    .image-name-review .name-review {
+        gap: .8vw;
+    }
+
+    .featured-restaurant-container .button {
+        width: 30%;
+    }
+
+    .button .text {
+        font-size: 10px;
+    }
 }
