@@ -141,8 +141,8 @@ button span{
     align-items: center;
     gap: 1.35vw; /*26px*/
     font-weight: 700;
-    width: 11.33vw; /*218px*/
-    height: 14.03vw; /*270px*/
+    /*width: 11.33vw; /*218px*/
+    /*height: 14.03vw; /*270px*/
 
 }
 
@@ -166,7 +166,7 @@ button span{
     height: 1.35vw; /*26px*/
     text-align: center;
     /*font-size: 1.14%; /*22px*/
-    font-size: clamp(10px, 1.14%, 22px);
+    font-size: clamp(12px, 1.14%, 22px);
     line-height: 120%;
     color: #424242;
 }
@@ -372,13 +372,17 @@ button span{
             flex-wrap: wrap;
             justify-content: center;
             flex: 0 0 11.33vw; /* base ~218px, mais flexible */
-            gap: 2.5vw;
+            gap: 3.5vw;
     
     }
 
     .sfa-item {
         flex: 1 1 25%;/* 2 carte par ligne */
-        max-width: 25%;
+        max-width: 30%;
+    }
+
+    .sfafood-photo {
+        height: 15vw;
     }
 
     .sfa-features .sfa-cards {
