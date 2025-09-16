@@ -112,6 +112,10 @@
         /* 2 cartes par ligne */
         max-width: 50%;
     }
+
+    .container .how-title {
+        font-size: 5vw;
+    }
 }
 
 @media (max-width: 600px) {
