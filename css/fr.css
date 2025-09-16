@@ -46,7 +46,7 @@
 .CARTE .image-name-review-badge {
     display: flex;
     flex-direction: column;
-    width: 15.9vw; /*197px*/
+    /*width: 15.9vw; /*197px*/
     /*height: 138;*/
     gap: 1.66vw; /*32px;*/
     align-items: flex-start;
