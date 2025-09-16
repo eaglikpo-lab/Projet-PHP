@@ -191,5 +191,6 @@
 
     .CARTE .image-name-review-badge {
         font-size: 10px;
+        gap: 2vw;
     }
 }
