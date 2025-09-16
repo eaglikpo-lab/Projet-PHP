@@ -215,9 +215,9 @@ button span{
     height: auto;
 }
 
-.sfa-cards .HR {
+.sfa-cards .sfa-HR {
    /* width: .12%; /*2px*/
-   /* height: 4.98%; /*96px*/
+    height: 4.98%; /*96px*/
     display: flex;
     align-items: center;
     justify-content: center;
@@ -339,15 +339,14 @@ button span{
 
 
 
-.appdownload .background {
+.appdownload .background-sfa {
     /*position: relative;
     /*width: 375.05vw; /*7216px*/
     /*height: 375.05vw;
     top: -348.59vw;/*-6707px;*/
     /* left: 127.65vw; /*-2456px;*/
     width: 100%;
-    height: 18%;
-    bottom: -2%;
+    height: 15%;
     background: linear-gradient(261.24deg, #FFAE00 63.85%, #FF8A00 111.94%);
 }
 
@@ -440,7 +439,7 @@ button span{
         height: 100%;
     }
     .searchbyfood-features-appdownload-container .appdownload {
-        height: 70vw;
+        height: 75vw;
     }
 
 }
