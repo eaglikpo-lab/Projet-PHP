@@ -153,42 +153,23 @@
 
 /* Desktop : déjà bon (4 colonnes), on garde ton code existant */
 
-/* Tablette (entre 768px et 1024px) */
-@media (max-width: 1024px) {
-    .featured-restaurant-container .cards {
-        grid-template-columns: repeat(2, 1fr);/* 2 cartes par ligne */
-        grid-auto-rows: auto;/* laisse la hauteur s'adapter */
-        width: 42% ;
-        gap:3.32vw 1.83vw;
-        
-    }
 
-    .cards .CARTE {
-        width: 100%;/* occupe la largeur de la colonne */
-    }
-
-    .food-photo {
-        object-fit: contain;
-        height: 90%;
-    }
-    
-    .food-photo img{
-        width: 100%;
-        height: auto;
-    }
-}
 
 /* Mobile (en dessous de 768px) */
-@media (max-width: 600px) {
+@media (max-width: 1024px) {
     .featured-restaurant-container .cards {
-        grid-template-columns: 1fr; /* 1 carte par ligne */
+        /*grid-template-columns: 1fr; /* 1 carte par ligne */
+        /*gap: 8vw;*/
+        grid-template-columns: repeat(2, 1fr); /* 2 cartes par ligne */
         grid-auto-rows: auto;
-        gap: 8vw;
+        gap: 5.32vw 1.83vw;
+        width: 76%;
     }
 
     .cards .CARTE {
-        height: 145%;
-        align-items: center;
+        width: 100%; /* occupe la largeur de la colonne */
+        height: 135%;
+        /*align-items: center;*/
     }
 
     .name-review {
