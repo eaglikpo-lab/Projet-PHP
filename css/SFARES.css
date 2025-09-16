@@ -385,23 +385,7 @@ button span{
         height: 15vw;
     }
 
-    .sfa-features .sfa-cards {
-        flex-direction: column; /* deviens une colonne */
-        gap: 1.5rem;
-        width: 50%;
-        justify-content: center;
-        margin: auto;
-    }
-    
-    /* HR devient une ligne horizontale */
-    .sfa-cards .sfa-HR span {
-        content: "";
-        display: block;
-        width: 100%; /* longueur de la barre */
-        height: 2px;
-        background: grey;
-        margin: 0.5rem auto;
-    }
+   
 
     .sfa-avant {
         flex-direction: column;
