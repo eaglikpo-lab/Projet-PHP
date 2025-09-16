@@ -191,11 +191,11 @@
 
     .CARTE .image-name-review-badge {
         font-size: 10px;
-        gap: 2vw;
+        gap: 2.5vw;
     }
 
     .image-name-review .name-review {
-        gap: .8vw;
+        gap: 1vw;
     }
 
     .featured-restaurant-container .button {

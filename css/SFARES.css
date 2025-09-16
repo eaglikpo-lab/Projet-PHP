@@ -195,11 +195,11 @@ button span{
     align-items: center;
 }
 
-.saf-cards .sfa-card {
+.sfa-cards .sfa-card {
     display: flex;
-    width: 16.552vw; /*318px*/
-    height: 7.06vw; /*136px*/ 
-    gap: 1.55; /*30px*/
+    /*width: 16.552vw; /*318px*/
+    /*height: 7.06vw; /*136px*/ 
+    gap: 1.55vw; /*30px*/
     border-radius: 1.4vw; /*27px*/
     justify-content: center;
     align-items: center;
@@ -233,7 +233,7 @@ button span{
     font-weight: 700;
     font-size: clamp(10px, 1.81vw, 35px); /*35px*/
     line-height: 120%;
-    width: 7.9vw; /*152*/
+    /*width: 7.9vw; /*152*/
     height: 4.36vw; /*84px*/
     /*color: linear-gradient(92.84deg, #FB3C00 -47.72%, #FFB800 136.81%);*/
     color: #FB3C00;
@@ -388,7 +388,9 @@ button span{
     .sfa-features .sfa-cards {
         flex-direction: column; /* deviens une colonne */
         gap: 1.5rem;
-        width: 35%;
+        width: 50%;
+        justify-content: center;
+        margin: auto;
     }
     
     /* HR devient une ligne horizontale */
