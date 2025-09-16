@@ -352,29 +352,20 @@ button span{
 
 
 
-@media (max-width: 1024px) {
-
-
-    .sfa-items {
-        flex-wrap: wrap;
-        justify-content: center;
-        flex: 0 0 11.33vw; /* base ~218px, mais flexible */
-        gap: 9.35vw;
-
-    }
-
-    .sfa-item {
-        flex: 1 1 25%;/* 2 cartes par ligne */
-        max-width: 25%;
-    }
-
-}
 
 @media (max-width: 600px) {
+    .sfa-items {
+            flex-wrap: wrap;
+            justify-content: center;
+            flex: 0 0 11.33vw;
+            /* base ~218px, mais flexible */
+            gap: 9.35vw;
+    
+    }
 
     .sfa-item {
-        flex: 1 1 35%;/* 2 carte par ligne */
-        max-width: 35%;
+        flex: 1 1 25%;/* 2 carte par ligne */
+        max-width: 25%;
     }
 
     .sfa-features .sfa-cards {
