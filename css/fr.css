@@ -8,7 +8,6 @@
 
 .featured-restaurant-container .title {
     text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
     font-size: 2.23vw;/*43px */
     font-weight: 700;
     line-height: 112.01%;
@@ -176,13 +175,21 @@
         width: 100%;
     }
 
-         .food-photo {
-             object-fit: contain;
-             height: 56%;
-         }
+    .food-photo {
+        object-fit: contain;
+        height: 56%;
+    }
     
-         .food-photo img {
-             width: 100%;
-             height: auto;
-         }
+    .food-photo img {
+        width: 100%;
+        height: auto;
+    }
+
+    .featured-restaurant-container .title {
+        font-size: 4vw;
+    }
+
+    .CARTE .image-name-review-badge {
+        font-size: 10px;
+    }
 }
