@@ -35,7 +35,7 @@
     font-size: clamp(12px, 2.23vw, 43px); /*43px*/
     line-height: 112.00000000000001%;
     text-align: center;
-    width: 15.07vw; /*290px*/
+    /*width: 15.07vw; /*290px*/
     height: 2.49vw; /*48px*/
     color: #212121;
 }
@@ -45,7 +45,8 @@
 
 .Header .sfa-buttons {
     display: flex;
-    width: 15.35vw;/*295.5px*/
+    /*width: 15.35vw;/*295.5px*/
+    gap: 3px;
     height: 100%;
     justify-content: space-between;
 }
@@ -353,13 +354,25 @@ button span{
 
 
 
-@media (max-width: 600px) {
-    .sfa-items {
+@media (max-width: 1024px) {
+    .Header .sfa-title {
+        font-size: 4.5vw;
+    }
+
+    button span {
+        font-size: 8px;
+    }
+
+    .sfa-slider-button .sfa-arrow {
+        font-size: 10px;
+    }
+
+
+    .sfa-title-items-button .sfa-items {
             flex-wrap: wrap;
             justify-content: center;
-            flex: 0 0 11.33vw;
-            /* base ~218px, mais flexible */
-            gap: 9.35vw;
+            flex: 0 0 11.33vw; /* base ~218px, mais flexible */
+            gap: 2.5vw;
     
     }
 
