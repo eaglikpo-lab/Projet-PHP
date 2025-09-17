@@ -331,10 +331,9 @@
     /* CTA */
     .CTA .text-button {
         position: absolute;
-        /* enlève le positionnement absolu */
         width: 80%;
         /*margin: auto;*/
-        margin-top: 5%;
+        margin-top: 3%;
         left: auto;
         text-align: center;
     }
@@ -357,13 +356,16 @@
 
     .OurTopCities .items {
         flex-wrap: wrap;
-        gap: 20px;
+        gap: 10px;
         justify-content: space-around;
     }
 
     .OurTopCities .item1 {
-        width: 40%;
-        /* 2 colonnes max */
+       /* width: 40%;/* 2 colonnes max */
+    }
+
+    .item1 span {
+        font-size: 10px;
     }
 
     .MenuSubscriptionRights {
@@ -414,4 +416,6 @@
         align-items: center;
         text-align: center;
     }
+
+   
 }
