@@ -351,17 +351,24 @@
 
     /* Footer */
     .OurTopCities {
-        width: 90%;
+        width: 50%;
+        align-items: center;
+    }
+
+    .OurTopCities h3,  .menu h3 {
+        font-size: 4.5vw;
     }
 
     .OurTopCities .items {
+        align-items: center;
         flex-wrap: wrap;
         gap: 10px;
         justify-content: space-around;
     }
 
     .OurTopCities .item1 {
-       /* width: 40%;/* 2 colonnes max */
+        align-items: center;
+        width: 100%;/* 2 colonnes max */
     }
 
     .item1 span {
@@ -377,20 +384,23 @@
 
     .MenuSubscriptionRights .MenuSubscription {
         flex-direction: column;
-        gap: 40px;
+        align-items: center;
+        gap: 20px;
     }
 
     .MenuSubscription .menus {
         justify-content: space-around;
-        flex-wrap: wrap;
+        /*flex-wrap: wrap;*/
         /*flex-direction: column;*/
-        width: 100%;
+        width: 90%;
         gap: 20px;
     }
 
     .MenuSubscription .menu {
         width: 40%;
     }
+
+  
 
     .FollowSubscription {
         align-items: center;
