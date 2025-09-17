@@ -407,6 +407,15 @@
         width: 100%;
     }
 
+    .follow-us .icons {
+        gap: 5vw;
+    }
+
+    .icons .icon {
+        width: 4vw;
+        height: auto;
+    }
+
     .subscription .text-field-button {
         flex-direction: column;
         gap: 10px;
