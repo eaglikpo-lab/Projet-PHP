@@ -424,13 +424,14 @@
         font-size: 10px;
     }
 
-    .subscription p {
+    .subscription p, .button span {
         font-size: 10px;
     }
 
     .subscription .text-field,
     .subscription .button, .subscription {
         width: 100%;
+       /* align-items: center;*/
     }
 
     .text-field img {
@@ -449,8 +450,9 @@
     .Rights .copy,
     .Rights .company,
     .made-by .made,
-    .made-by .heart {
-        font-size: 10px;
+    .made-by .heart, 
+    .made-by .theme {
+        font-size: 6px;
     }
 
 
