@@ -355,7 +355,7 @@
         align-items: center;
     }
 
-    .OurTopCities h3,  .menu h3 {
+    .OurTopCities h3,  .menu h3, .follow-us span{
         font-size: 4.5vw;
     }
 
@@ -377,7 +377,7 @@
 
     .MenuSubscriptionRights {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         width: 90%;
         gap: 40px;
     }
@@ -412,20 +412,38 @@
         gap: 10px;
         align-items: center;
         width: 90%;
+        font-size: 10px;
+    }
+
+    .subscription p {
+        font-size: 10px;
     }
 
     .subscription .text-field,
-    .subscription .button {
+    .subscription .button, .subscription {
         width: 100%;
+    }
+
+    .text-field img {
+        width: 2.5vw;
     }
 
     /* HR + Rights */
     .HR-rights {
-        flex-direction: column;
+        /*flex-direction: column;*/
         gap: 10px;
         align-items: center;
         text-align: center;
     }
+
+    .Rights .all,
+    .Rights .copy,
+    .Rights .company,
+    .made-by .made,
+    .made-by .heart {
+        font-size: 10px;
+    }
+
 
    
 }
