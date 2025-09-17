@@ -20,21 +20,18 @@
 .container .how-title {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: 700;
-    font-size: clamp(20px, 2.08vw, 43px);
-    /* 40px */
+   /* font-size: clamp(20px, 2.08vw, 43px); /* 40px */
     color: #F17228;
-    font-size: 2.23vw;
-    /* 43px */
+    font-size: 2.23vw; /* 43px */
 }
 
 /* Features container */
 .container .features {
     display: flex;
     justify-content: space-between;
-    width: 71.93vw;
+    /*width: 71.93vw;*/
     align-items: flex-start;
-    gap: 1.66vw;
-    /* 32px */
+    gap: 1.66vw; /* 32px */
 }
 
 /* Each feature */
@@ -46,16 +43,14 @@
     /*min-width: 200px;
     max-width: 16%;*/
     align-items: center;
-    font-size: .93vw;
-    /*18%*/
+    font-size: .93vw;/*18%*/
     color: #9E9E9E;
 }
 
 .feature .texts {
     display: flex;
     flex-direction: column;
-    gap: 0.51vw;
-    /*10%*/
+    gap: 0.51vw; /*10%*/
     justify-content: space-between;
     align-content: center;
     text-align: center;
@@ -65,12 +60,9 @@
 .feature .icon {
     display: flex;
     justify-content: center;
-    width: 3.75vw;
-    /*72.15px*/
-    height: 5.82vw;
-    /* ~112px */
-    gap: 2.13vw;
-    /*41px;*/
+    width: 3.75vw; /*72.15px*/
+    height: 5.82vw; /* ~112px */
+    gap: 2.13vw; /*41px;*/
 }
 
 .icon img {
@@ -84,17 +76,15 @@
     color: #434343;
     line-height: 120%;
     align-content: center;
-    font-size: clamp(10px, 1.14vw, 22px);
-    /* 22px */
+    font-size: clamp(10px, 1.14vw, 22px); /* 22px */
 }
 
 /* Body */
 .feature .feature-body {
-    font-size: clamp(9px, 0.94vw, 18px);
-    /* 18px */
+    font-size: clamp(9px, 0.94vw, 18px);/* 18px */
     color: #9E9E9E;
     line-height: 1.4;
-    max-width: 100%;
+    width: 100%;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -102,15 +92,13 @@
     .features {
         flex-wrap: wrap;
         justify-content: center;
-        flex: 0 0 19.07vw;
-        /* base ~367px, mais flexible */
+        flex: 0 0 19.07vw; /* base ~367px, mais flexible */
         gap: 3vw;
     }
 
     .feature {
-        flex: 1 1 35%;
-        /* 2 cartes par ligne */
-        max-width: 50%;
+        flex: 1 1 35%; /* 2 cartes par ligne */
+        width: 50%;
     }
 
     .container .how-title {
@@ -120,8 +108,7 @@
 
 @media (max-width: 600px) {
     .feature {
-        flex: 1 1 50%;
-        /* 2 carte par ligne */
-        max-width: 45%;
+        flex: 1 1 50%; /* 2 carte par ligne */
+        width: 45%;
     }
 }

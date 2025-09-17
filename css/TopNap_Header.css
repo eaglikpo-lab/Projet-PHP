@@ -13,7 +13,7 @@ body {
 /* === CONTAINER GLOBAL === */
 .page-container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 90%;
   margin: 0 auto;
   margin: 0 auto;/* centre horizontalement */
   padding: 0 20px;/* espace intérieur gauche/droite (utile en mobile) */

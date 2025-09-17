@@ -169,16 +169,15 @@ height: auto;}
 
 /* Slider arrows */
 .popular-items .popslider-button {
-    position: absolute;
-    /*top: 50%;*/
+    position: absolute; /*top: 50%;*/
     margin-top: 13vw;
     display: flex;
     justify-content: space-between;
     transform: translateY(-50%);
     pointer-events: none;/* arrows only clickable */
-    margin-left: 5.14%;
+    margin-left: 2.5%;
     width: 100%;
-    max-width: 85.1%; /*Uniquement ici, garde 91.1% dans le dossier "popular itemss lui mm".*/
+    max-width: 85%; /*Uniquement ici, garde 91.1% dans le dossier "popular itemss lui mm".*/
     z-index: 10;
 }
 
