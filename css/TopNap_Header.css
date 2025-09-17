@@ -368,7 +368,7 @@ body {
   }
 
   .top-nav .deliver-address,
-  .frame29, .frame39, .frame63
+  .frame29, .frame39, .frame63,
   .title p, .tab1 span,
   .tab2 span {
     font-size: 10px;
@@ -412,6 +412,11 @@ body {
     .header {
       height: 35.5vw;
     }
+
+    
+  .text-field img {
+    width: 1.5vw;
+  }
 
     .noodle img {
       top: 5.4vw;
@@ -459,6 +464,22 @@ body {
   }
 
   .text-field input {
-    font-size: 10px;
+    font-size: 8px;
+  }
+
+  .logofoodwagon .logo {
+    width: 3vw;
+    height: auto;
+  }
+
+  .frame61 img, .frame29 .icon-search img,
+  .frame29 .icon-search img {
+    width: 2vw;
+    height: auto;
+  }
+
+  .find-food-btn img {
+    width: 2.2vw;
+    height: auto;
   }
 }
