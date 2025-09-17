@@ -333,14 +333,14 @@
         position: absolute;
         /* enlève le positionnement absolu */
         width: 80%;
-        margin: auto;
+        /*margin: auto;*/
+        margin-top: 5%;
         left: auto;
         text-align: center;
     }
 
     .text-button h2 {
-        font-size: 5vw;
-        /* plus grand sur mobile */
+        font-size: 5vw; /* plus grand sur mobile */
     }
 
     .proc-button {

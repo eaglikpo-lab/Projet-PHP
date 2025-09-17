@@ -366,6 +366,13 @@ body {
   .top-nav {
     padding: 12px 5%;
   }
+
+  .top-nav .deliver-address,
+  .frame29, .frame39,
+  .title p, .tab1 span,
+  .tab2 span {
+    font-size: 10px;
+  }
   
   .top-nav-header {
     margin-bottom: 7.5vw;
