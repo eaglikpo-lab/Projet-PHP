@@ -475,12 +475,12 @@ body {
 
   .frame61 img, .frame39 .icon-search img,
   .frame29 .icon-search img {
-    width: 3vw;
+    width: 2.6vw;
     height: auto;
   }
 
   .find-food-btn img {
-    width: 3vw;
+    width: 2.5vw;
     height: auto;
   }
 }
