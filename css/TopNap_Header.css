@@ -447,12 +447,18 @@ body {
        /*height: 10%;*/
      }
 
-  .tab1 img, .tab2 img {
+  .tab1 img {
     width: 3vw;
   }
+
+  .tab2 img {width: 2vw;}
 
   .background-jaune .noodle {
     padding-top: 20%;
     width: 52.39vw;
+  }
+
+  .text-field input {
+    font-size: 10px;
   }
 }

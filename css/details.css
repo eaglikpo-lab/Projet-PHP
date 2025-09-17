@@ -136,12 +136,12 @@
         text-align: left;
     }
 
-    .text-best .title {
+    .text-best .title-best {
         font-size: 4vw;
         /* Plus grand sur mobile */
     }
 
-    .text-best .body {
+    .text-best .body-best {
         font-size: 10px;
         height: auto;
         margin-bottom: 10px;
