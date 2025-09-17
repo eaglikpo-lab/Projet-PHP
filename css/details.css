@@ -114,14 +114,14 @@
     }
 
     .details-container .details-card {
-        /*flex-direction: column;  /* Texte au-dessus, image en dessous */
+        flex-direction: column;  /* Texte au-dessus, image en dessous */
         height: auto; /* Laisse s’adapter à la taille du contenu */
         gap: 15px;
 
     }
 
     .details-card .left-detail {
-        width: 80%;
+        width: 100%;
         height: auto;
         margin: 20px 0;
         align-items: flex-start; /* Aligne à gauche */
@@ -148,7 +148,7 @@
     }
 
     .left-detail .button-left {
-        /*width: 60%;*/
+        width: 60%;
         margin-top: 10px;
     }
 
@@ -159,7 +159,7 @@
     }
 
     .details-card .right-detail {
-        width: 80%;
+        width: 100%;
         /* L’image prend toute la largeur */
         height: auto;
     }
@@ -171,7 +171,7 @@
 
     /* Pour la carte d2 (row-reverse sur desktop), on neutralise sur mobile */
     #d2 {
-        /*flex-direction: column;*/
-        flex-direction: row-reverse;
+        flex-direction: column;
+        /*flex-direction: row-reverse;*/
     }
 }
