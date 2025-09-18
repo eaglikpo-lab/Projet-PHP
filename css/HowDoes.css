@@ -1,18 +1,20 @@
 /* Section container */
-.how-it-works {
-    padding: 4.15vw 0vw;
-    /* 80px / 1920 */
+/*.how-it-works {
+    padding: 4.15vw 0vw; 
     background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
     text-align: center;
 
-}
+}*/
 
 .how-it-works .container {
+    padding: 4.15% 0%; /* 80px / 1920 */
+    background: linear-gradient(180deg, rgba(255, 206, 103, 0.22) -42.47%, rgba(253, 237, 202, 0) 100%);
+    text-align: center;
     display: flex;
     align-items: center;
     flex-direction: column;
-    gap: 3.69vw;
-    /* 71px */
+    gap: 3.69vw;/* 71px */
+    width: 100%;
 
 }
 
@@ -27,19 +29,21 @@
 
 /* Features container */
 .container .features {
+    margin: auto;
     display: flex;
     justify-content: space-between;
-    /*width: 71.93vw;*/
-    align-items: flex-start;
+    width: 71.93%;
+    align-items: center;
     gap: 1.66vw; /* 32px */
+    
 }
 
 /* Each feature */
 .features .feature {
     display: flex;
     flex-direction: column;
-    width: 15.95vw;
-    gap: 2.13vw;
+    /*width: 15.95vw;*/
+    /*gap: 2.13vw;*/
     /*min-width: 200px;
     max-width: 16%;*/
     align-items: center;
@@ -60,9 +64,9 @@
 .feature .icon {
     display: flex;
     justify-content: center;
-    width: 3.75vw; /*72.15px*/
-    height: 5.82vw; /* ~112px */
-    gap: 2.13vw; /*41px;*/
+    /*width: 3.75vw; /*72.15px*/
+    height: 8.66vw; /* ~112px */
+   /* gap: 2.13vw; /*41px;*/
 }
 
 .icon img {
@@ -108,7 +112,7 @@
 
 @media (max-width: 600px) {
     .feature {
-        flex: 1 1 50%; /* 2 carte par ligne */
-        width: 45%;
+        flex: 1 1 35%; /* 2 carte par ligne */
+        /*width: 45%;*/
     }
 }
