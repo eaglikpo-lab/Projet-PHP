@@ -372,7 +372,7 @@
     .OurTopCities .item1 {
         /*align-items: center;*/
         /*width: 100%;/* 2 colonnes max */
-        width: 28%;/* 2 colonnes max */
+        width: 25%;/* 2 colonnes max */
     }
 
     .item1 span {
