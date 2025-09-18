@@ -364,7 +364,7 @@
     .OurTopCities .items {
         align-items: center;
         flex-wrap: wrap;
-        gap: 13px;
+        gap: 10px;
         /*justify-content: space-around;*/
         justify-content: normal;
     }
@@ -372,7 +372,7 @@
     .OurTopCities .item1 {
         /*align-items: center;*/
         /*width: 100%;/* 2 colonnes max */
-        width: 31%;/* 2 colonnes max */
+        width: 28%;/* 2 colonnes max */
     }
 
     .item1 span {
