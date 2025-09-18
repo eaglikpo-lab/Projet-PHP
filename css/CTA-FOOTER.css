@@ -351,6 +351,7 @@
 
     /* Footer */
     .OurTopCities {
+        margin: auto;
        /* width: 50%;*/
         width: 80%;
        /* align-items: center;*/
