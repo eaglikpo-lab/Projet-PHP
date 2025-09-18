@@ -354,7 +354,7 @@
        /* width: 50%;*/
         width: 80%;
        /* align-items: center;*/
-       gap: 3vw;
+       gap: 3.5vw;
     }
 
     .OurTopCities h3,  .menu h3, .follow-us span{
@@ -364,7 +364,7 @@
     .OurTopCities .items {
         align-items: center;
         flex-wrap: wrap;
-        gap: 10px;
+        gap: 12px;
         /*justify-content: space-around;*/
         justify-content: normal;
     }
@@ -372,7 +372,7 @@
     .OurTopCities .item1 {
         /*align-items: center;*/
         /*width: 100%;/* 2 colonnes max */
-        width: 25%;/* 2 colonnes max */
+        width: 30%;/* 2 colonnes max */
     }
 
     .item1 span {
