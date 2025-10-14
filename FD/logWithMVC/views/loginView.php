@@ -6,7 +6,7 @@
   </head>
 
   <body class="body">
-   <div class="login_container">
+    <div class="login_container">
       <div class="login-card">
 
         <div class="login-header">
@@ -45,6 +45,8 @@
           <p>Don't have an account? <a onclick="window.location.href='../controllers/signupController.php'">Sign in</a> </p>
         </div>
       </div>
-   </div>
+    </div>
+
+    <script src="../public/js/user.js"></script>
   </body>
 </html>
